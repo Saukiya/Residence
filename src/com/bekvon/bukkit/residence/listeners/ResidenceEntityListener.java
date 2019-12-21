@@ -103,7 +103,7 @@ public class ResidenceEntityListener implements Listener {
     }
 
     public static boolean isMonster(Entity ent) {
-	return (ent instanceof Monster || ent instanceof Slime || ent instanceof Ghast);
+	return (ent instanceof Monster || ent instanceof Slime || ent instanceof Ghast || ent instanceof Phantom);
     }
 
     private static boolean isTamed(Entity ent) {
